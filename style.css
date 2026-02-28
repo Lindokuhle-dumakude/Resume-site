@@ -9,7 +9,7 @@
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: #bfc9d1;
+  background-color: #f7f8f0;
   color: #000;
 }
 
@@ -28,3 +28,34 @@ h3 {
 p {
   font-size: 16px;
 }
+
+/* Header and navigation styles start */
+
+header > .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  background-color: white;
+}
+
+header > .flex-container .logo {
+  font-size: 32px;
+}
+
+header .flex-container > nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header and navigation styles end */
