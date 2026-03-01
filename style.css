@@ -202,3 +202,106 @@ footer {
 }
 
 /* Footer styles end */
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.625rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-btn {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header > .flex-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .profile-picture {
+    width: 10rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 0.875rem;
+  }
+
+  .contact-btn {
+    margin-left: 0px;
+  }
+
+  footer > small {
+    font-size: 0.625rem;
+  }
+
+  .contact-section {
+    padding: 1.5rem;
+  }
+
+  .contact-section > section {
+    margin: 16px 0px;
+  }
+
+  .contact-section > section article p {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact-section {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.125rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.875rem;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 0.75rem;
+  }
+}
