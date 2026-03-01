@@ -59,6 +59,21 @@ a {
   text-decoration: none;
   color: #000;
   font-weight: 400;
+  transition: 0.3s ease;
+}
+
+.flex-container nav ul li a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.flex-container nav ul li a:active {
+  color: #1d4ed8;
+}
+
+.flex-container nav ul li a:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 4px;
 }
 
 /* Header and navigation styles end */
@@ -169,6 +184,15 @@ main {
   cursor: pointer;
 }
 
+.contact-btn > a:hover {
+  background-color: #f27f2d;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
 /* Main content, contact page styling starts */
 
 .contact-section {
@@ -186,6 +210,15 @@ main {
 .contact-section > section article p {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.contact-section section article p a:any-link {
+  color: #2563eb;
+}
+
+.contact-section section article p a:hover {
+  color: #0000cc;
+  text-decoration: underline;
 }
 
 /* Main content, contact page styling ends */
