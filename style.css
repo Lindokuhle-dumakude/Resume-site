@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --space-mt-mb: 2rem 0;
+  --space-pt-pb: 1.25rem 0;
+  --space-ml: 1.25rem;
+  --space-li-padding: 0.25rem;
+}
+
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -84,7 +91,7 @@ a {
   display: flex;
   align-items: center;
   gap: 48px;
-  margin: 2rem 0px;
+  margin: var(--space-mt-mb);
   padding: 0px 25px;
   text-align: justify;
 }
@@ -107,21 +114,21 @@ main {
 }
 
 #about p {
-  padding: 20px 0px;
+  padding: var(--space-pt-pb);
   text-align: justify;
 }
 
 #skills {
-  margin: 2rem 0px;
+  margin: var(--space-mt-mb);
 }
 
 #skills > ul {
-  margin-left: 20px;
-  padding: 20px 0;
+  margin-left: var(--space-ml);
+  padding: var(--space-pt-pb);
 }
 
 #skills > ul li {
-  padding: 4px;
+  padding: var(--space-li-padding);
 }
 
 #projects > article {
@@ -129,24 +136,24 @@ main {
 }
 
 #projects > article p {
-  padding: 20px 0px;
+  padding: var(--space-pt-pb);
 }
 
 .education {
-  margin: 2rem 0px;
+  margin: var(--space-mt-mb);
 }
 
 .education ul {
-  margin-left: 20px;
-  padding: 20px 0px;
+  margin-left: var(--space-ml);
+  padding: var(--space-pt-pb);
 }
 
 .education ul li {
-  padding: 4px;
+  padding: var(--space-li-padding);
 }
 
 .work-experience-section > .professional-experience {
-  margin-left: 20px;
+  margin-left: var(--space-ml);
 }
 
 .job-position {
@@ -158,12 +165,12 @@ main {
 }
 
 .workplace > ul {
-  margin-left: 20px;
+  margin-left: var(--space-ml);
   padding: 16px;
 }
 
 .workplace > ul li {
-  padding: 4px;
+  padding: var(--space-li-padding);
 }
 
 .contact-btn {
@@ -171,10 +178,11 @@ main {
   margin-left: 40px;
   max-width: 200px;
   text-align: center;
+  transition: 0.2s ease;
 }
 
 .contact-btn > a {
-  margin: 2rem 0px;
+  margin: var(--space-mt-mb);
   width: 160px;
   padding: 12px;
   text-align: center;
@@ -190,7 +198,6 @@ main {
 
 .contact-btn:hover {
   transform: translateY(-2px);
-  transition: 0.2s ease;
 }
 
 /* Main content, contact page styling starts */
@@ -200,7 +207,7 @@ main {
 }
 
 .contact-section > section {
-  margin: 2rem 0px;
+  margin: var(--space-mt-mb);
 }
 
 .contact-section > section p {
