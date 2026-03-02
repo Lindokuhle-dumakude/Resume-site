@@ -28,7 +28,7 @@ Practice semantic HTML and proper document structure 🏗️
 
 ---
 
-## ## ✨ Features
+## ✨ Features
 
 - Semantic HTML structure 🌐
 - Accessible navigation and content structure with keyboard support ♿
